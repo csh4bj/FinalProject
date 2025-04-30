@@ -21,7 +21,7 @@ class Die:
         """
         PURPOSE: This method initializes the Die object and saves both faces and weights in a private data frame with faces in the index.  
         
-        INPUT:This method takes a NumPy array of faces as an argument. The array’s data type dtype may be strings or numbers, but the array’s values must be distinct.
+        INPUT: This method takes a NumPy array of faces as an argument. The array’s data type dtype may be strings or numbers, but the array’s values must be distinct.
         
         OUTPUT: None.
 
@@ -57,7 +57,7 @@ class Die:
         """
         PURPOSE: This method rolls the die/dice using random sample with replacement, from the private die data frame, that applies the weights.
         
-        INPUT: a parameter of how many times the die is to be rolled; defaults to  1.
+        INPUT: A parameter of how many times the die is to be rolled; defaults to  1.
         
         OUTPUT: pd.Series(results), a series with the results of the dice roll.
 
@@ -173,7 +173,7 @@ class Analyzer:
         
         INPUT: This method takes a game object as its input parameter.
         
-        OUTPUT: This method throws a ValueError if the passed value is not a Game object. Saves the result of show() on the game object.
+        OUTPUT: None.
 
         """
         if type(game) is not Game:

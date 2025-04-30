@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: montecarlo
+Version: 0.1
+Summary: A Monte Carlo simulator with Die, Game, and Analyzer classes.
+Home-page: https://github.com/csh4bj/FinalProject
+Author: Cameron Her
+Author-email: csh4bj@virginia.edu
